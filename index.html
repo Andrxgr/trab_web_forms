@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet"
+    />
+    <title>cadastro de clientes</title>
+    </head>
+    <body>
+    <div class="container">
+        <div class="header">
+        <h2>Cadastre um cliente</h2>
+        </div>
+
+        <form id="form" class="form">
+        <div class="form-control">
+            <label for="username">Nome do cliente</label>
+            <input
+            type="text"
+            id="username"
+            placeholder="Digite seu nome de usuário..."
+            />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+            <label for="id">ID</label>
+            <input 
+            type="id" 
+            id="id" 
+            placeholder="Digite o id do cliente: " />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+            <label for="cliente">Tipo do Cliente</label>
+            <input 
+            type="cliente"
+            id="cliente"
+            placeholder="Digite o tipo do cliente"
+            />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+            <label for="cep">cep</label>
+            <input 
+            type="cep"
+            id="cep"
+            placeholder="Digite o cep do cliente"
+            />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+            <label for="limite">limite</label>
+            <input 
+            type="limite"
+            id="limite"
+            placeholder="Digite o limite do cliente"
+            />
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+        </div>
+
+
+        <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script
+        src="https://kit.fontawesome.com/f9e19193d6.js"
+        crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+    </body>
+</html>
